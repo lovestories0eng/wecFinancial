@@ -1,0 +1,13 @@
+.data-form {
+  position: relative;
+  left: 144px;
+  overflow: hidden;
+}
+
+.table-explanation {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin: 15px;
+  width: 210px;
+}

@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x:hidden;
+}
+
+body {
+  background-color: #f3f5f7;
+  /*position: relative;*/
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  /* cursor：pointer设定鼠标的形状为一只伸出食指的手 */
+  cursor: pointer;
+}
+
+.fa {
+  display: block;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(30, 41, 61);
+}
+
+.logo {
+  position: relative;
+  overflow: hidden;
+  width: 113.39px;
+  height: 80px;
+  float: left;
+  background-color: rgb(36, 29, 29);
+}
+
+.logo img {
+  float: left;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+}
+
+.nav {
+  margin-left: 60px;
+  float: left;
+}
+
+.nav ul li {
+  float: left;
+  margin: 0 15px;
+}
+
+.nav ul li a {
+  display: inline-block;
+  height: 80px;
+  padding: 0 10px;
+  line-height: 80px;
+  font-size: 18px;
+  color: #ad9e9e;
+}
+
+.nav ul li a:hover {
+  color: #00a4ff;
+}
+
+.search {
+  float: left;
+  width: 412px;
+  height: 42px;
+  margin-top: 19px;
+  margin-left: 70px;
+}
+
+.search input {
+  float: left;
+  width: 345px;
+  height: 42px;
+  border-right: none;
+  color: #bfbfbf;
+  font-size: 14px;
+  padding-left: 15px;
+  background-color: rgb(58, 71, 96);
+}
+
+.user {
+  float: right;
+  line-height: 42px;
+  margin-top: 19px;
+  margin-right: 30px;
+  font-size: 14px;
+  color: rgb(86, 98, 119);
+}
+
+.user img {
+  vertical-align: middle;
+}
+
+.logOut {
+  float: right;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.logOut button {
+  width: 40px;
+  background-color: #1e293d;
+  border:none;
+  color: #bfbfbf
+}
+
+.logOut button:hover {
+  cursor: pointer;
+}
+
+.main-content {
+  position: relative;
+}
+
+.left-menu {
+  /*display: none;*/
+  position: absolute;
+  /*position: fixed;*/
+  height: 100%;
+  text-align: center;
+  float: left;
+  background: rgb(30, 41, 61);
+}
+
+.left-menu ul {
+  background: rgb(30, 41, 61);
+}
+
+.left-menu ul li {
+  height: 82px;
+  line-height: 45px;
+}
+
+.left-menu ul li a {
+  padding: 0 20px;
+  padding-top: 10px;
+}
+
+.left-menu ul li a:hover {
+  color: #fff !important;
+  background-color: red;
+}
+
+.left-menu ul li a {
+  font-size: 14px;
+  color: rgb(116, 127, 149);
+}
+
+.left-menu ul li i {
+  display: block;
+}
+
+.content {
+  position: relative;
+  left: 114px;
+  overflow: hidden;
+}
+
+.content h2 {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.table-common {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  /*left: 144px; */
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.table-common .table-head {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.table-common h3 {
+  display: inline-block;
+}
+
+.table-common input {
+  width: 50px;
+}
+
+.table-common table {
+  margin: 5px 20px;
+}

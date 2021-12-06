@@ -1,0 +1,31 @@
+.data-cal {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  left: 144px;
+}
+
+.data-cal .flow-bond p {
+  display: block;
+  position: relative;
+  margin-top: 10px;
+}
+
+.data-cal .data-input {
+  float: left;
+}
+
+.data-cal .data-input input,
+button {
+  width: 80px;
+}
+
+#bond-curve-graph {
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+  border: 1px solid #089;
+  left: 50px;
+  height: 300px;
+  width: 850px;
+}
