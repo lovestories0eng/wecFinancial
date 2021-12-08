@@ -1,0 +1,17 @@
+.blog-posts {
+  position: relative;
+  left: 60px;
+  overflow: hidden;
+}
+
+.blog-posts h2,
+h3 {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#gitalk-container {
+  position: relative;
+  margin: 50px auto;
+  width: 1000px;
+}
