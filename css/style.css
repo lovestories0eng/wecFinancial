@@ -20,11 +20,14 @@ li {
 }
 
 a {
-  display: block;
   text-decoration: none;
   color: black;
   /* cursor：pointer设定鼠标的形状为一只伸出食指的手 */
   cursor: pointer;
+}
+
+.main-content .left-menu ul li a {
+  display: block;
 }
 
 .fa {
