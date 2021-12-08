@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  background-color: #f3f5f7;
+  background-color: #f4f4f4;
   /*position: relative;*/
 }
 
@@ -180,8 +180,9 @@ a {
   position: relative;
   display: inline-block;
   margin-top: 30px;
+  margin-left: 30px;
   /*left: 144px; */
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .table-common .table-head {
@@ -201,9 +202,4 @@ a {
 
 .table-common table {
   margin: 5px 20px;
-}
-
-#general-picture {
-  position: relative;
-  left: 144px;
 }

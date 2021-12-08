@@ -1,8 +1,8 @@
 .data-cal {
   position: relative;
   display: inline-block;
-  margin-top: 20px;
-  left: 144px;
+  margin-top: 50px;
+  left: 184px;
 }
 
 .data-cal .flow-bond p {
@@ -15,17 +15,35 @@
   float: left;
 }
 
-.data-cal .data-input input,
-button {
-  width: 80px;
+.data-cal .data-input input {
+  width: 280px;
+  height: 28px;
+  border: .1rem solid rgba(51,51,51,.25);
+  font-size: 14px;
+  line-height: 1.357;
+  margin-top: 10px;
+}
+
+.data-cal .data-input input::placeholder {
+  padding-left: 10px;
+}
+
+.data-cal .data-input #bond-curve-button, #bond-curve-reset {
+  width: 6rem;
+  height: 2.5rem;
+}
+
+.data-cal h2 {
+  display: block;
 }
 
 #bond-curve-graph {
   margin: 10px;
   position: relative;
   display: inline-block;
-  border: 1px solid #089;
+  border: none;
   left: 50px;
-  height: 300px;
+  height: 500px;
   width: 850px;
+  box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
