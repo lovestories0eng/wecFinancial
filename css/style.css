@@ -30,13 +30,16 @@ a {
   display: block;
 }
 
-.fa {
+.left-menu .fa {
   display: block;
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
   overflow: hidden;
   background-color: rgb(30, 41, 61);
+  z-index: 100;
 }
 
 .logo {
@@ -133,8 +136,8 @@ a {
 
 .left-menu {
   /*display: none;*/
-  position: absolute;
-  /*position: fixed;*/
+  /*position: absolute;*/
+  position: fixed;
   height: 100%;
   text-align: center;
   float: left;

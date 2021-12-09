@@ -1,6 +1,7 @@
 .blog-posts {
   position: relative;
-  left: 60px;
+  width: 65%;
+  left: 125px;
   overflow: hidden;
 }
 
@@ -10,8 +11,55 @@ h3 {
   margin-left: 30px;
 }
 
+#editormd-post-one, #editormd-post-two {
+  box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 #gitalk-container {
   position: relative;
   margin: 50px auto;
   width: 1000px;
+}
+
+.introduction {
+  position: fixed;
+  right: 50px;
+  top: 120px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 23%;
+  height: 80%;
+}
+
+.introduction img {
+  margin: 10px auto;
+  width: 50%;
+}
+
+.introduction .links {
+  width: 60%;
+  height: 14%;
+  margin-top: 5px;
+  margin-left: 75px;
+  display: block;
+  text-align: center;
+}
+
+.introduction .left {
+  float: left;
+}
+
+.introduction .right {
+  float: right;
+}
+
+.introduction .articles {
+  margin-top: 5px;
+  margin-left: 75px;
+  width: 60%;
+}
+
+.introduction .articles ul li {
+  text-align: left;
+  margin-top: 10px;
 }
