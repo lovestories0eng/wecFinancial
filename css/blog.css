@@ -11,8 +11,31 @@ h3 {
   margin-left: 30px;
 }
 
+.blog-posts .post-info {
+  font-size: 16px;
+  margin-left: 200px;
+  width: 100%;
+}
+
+.blog-posts .post-info span {
+  margin: 15px auto;
+  width: 230px;
+  height: 35px;
+  display: inline-block;
+  float: left;
+}
+
+.blog-posts .post-info .fa {
+  display: inline-block;
+}
+
 #editormd-post-one, #editormd-post-two {
   box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 60px;
+}
+
+#editormd {
+  margin-top: 30px;
 }
 
 #gitalk-container {
