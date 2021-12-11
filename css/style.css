@@ -10,8 +10,7 @@ body {
 }
 
 body {
-  background-color: #f4f4f4;
-  background-color: #f4f4f4;
+  background-color: #eceef6;
   /*position: relative;*/
 }
 
@@ -183,7 +182,89 @@ a {
   margin-left: 30px;
 }
 
+.entrances {
+  position: relative;
+  display: inline-block;
+  top: 30px;
+  left: 50px;
+  width: 240px;
+  height: 580px;
+}
+
+.entrance {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+
+.entrances .entrance i {
+  padding: 0 10px;
+  background-color: #768eba;
+  width: 60px;
+  line-height: 80px;
+}
+
+.entrances .entrance .fa {
+  color: #fff;
+  text-align: center;
+}
+
+.entrances .entrance span {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 80px;
+  height: 80px;
+  margin-top: 0;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.entrances .entrance span a:hover {
+  color: #de4348;
+}
+
+.businesses {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  left: 24px;
+  top: -160px;
+  width: 600px;
+  height: 120px;
+}
+
+.businesses h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.business {
+  display: inline-block;
+  background-color: #e4ebf7;
+  margin-right: 10px;
+  width: 280px;
+  height: 90px;
+}
+
+.business span {
+  height: 100%;
+}
+
+.business span a {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 60px;
+  height: 100%;
+  line-height: 90px;
+}
+
+.business span a:hover {
+  color: red;
+}
+
 .table-common {
+  vertical-align: top;
   position: relative;
   display: inline-block;
   margin-top: 30px;
@@ -209,4 +290,12 @@ a {
 
 .table-common table {
   margin: 5px 20px;
+}
+
+.table-explanation {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin: 15px;
+  width: 330px;
 }

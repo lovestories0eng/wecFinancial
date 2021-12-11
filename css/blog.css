@@ -18,24 +18,28 @@ h3 {
 }
 
 .blog-posts .post-info span {
-  margin: 15px auto;
+  margin: 8px auto;
   width: 230px;
   height: 35px;
   display: inline-block;
   float: left;
 }
 
-.blog-posts .post-info .fa {
-  display: inline-block;
+.blog-posts .post-info {
+  overflow: hidden;
 }
 
-#editormd-post-one, #editormd-post-two {
+#editormd-post-1, #editormd-post-2 {
   box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.2);
   margin-bottom: 60px;
 }
 
 #editormd {
   margin-top: 30px;
+}
+
+.editormd-html-preview {
+  box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.2);!important;
 }
 
 #gitalk-container {
@@ -56,7 +60,7 @@ h3 {
 
 .introduction img {
   margin: 10px auto;
-  width: 50%;
+  width: 30%;
 }
 
 .introduction .links {

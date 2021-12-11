@@ -1,0 +1,21 @@
+.online-submission {
+  overflow: hidden;
+  position: relative;
+  left: 124px;
+  width: 90%;
+}
+
+.online-submission .post-information {
+  margin-top:30px;
+}
+
+.online-submission .submit-info {
+  margin: 15px;
+}
+
+.online-submission .submit-info span button {
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  background-color: #1e293d;
+}
