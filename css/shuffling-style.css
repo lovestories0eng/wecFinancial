@@ -1,9 +1,10 @@
 #contbox {
   margin-top: 20px;
-  width: 1350px;
+  width: 88%;
   height: 380px;
   position: relative;
-  left: 144px;
+  left: 30px;
+  margin-left: 30px;
   border-radius: 15px;
   overflow: hidden;
 }
