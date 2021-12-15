@@ -1,0 +1,1 @@
+import"../../css/post.css";import"../../css/markdown.css";import"../../locallib/css/editormd.css";function PostRun(){$((function(){editormd("editormd",{width:"95%",height:720,toc:!0,tex:!0,emoji:!0,path:"locallib/lib/"})}))}export default PostRun;

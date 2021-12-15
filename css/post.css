@@ -6,10 +6,12 @@
 }
 
 .online-submission .post-information {
+  text-align: center;
   margin-top:30px;
 }
 
 .online-submission .submit-info {
+  text-align: center;
   margin: 15px;
 }
 
