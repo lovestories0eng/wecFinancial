@@ -13,7 +13,8 @@ h3 {
 
 .blog-posts .post-info {
   font-size: 16px;
-  margin-left: 200px;
+  /*margin-left: 200px;*/
+  margin: auto;
   width: 100%;
 }
 
@@ -26,12 +27,11 @@ h3 {
 }
 
 .blog-posts .post-info {
-  overflow: hidden;
+  overflow:hidden;
 }
 
 #editormd-post-1, #editormd-post-2 {
-  box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.2);
-  margin-bottom: 60px;
+  margin-bottom: inherit;
 }
 
 #editormd {
