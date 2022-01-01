@@ -30,12 +30,12 @@ h3 {
   overflow:hidden;
 }
 
-#editormd-post-1, #editormd-post-2 {
-  margin-bottom: inherit;
-}
-
 #editormd {
   margin-top: 30px;
+}
+
+#editormd-local-1, #editormd-local-2 {
+  margin-bottom: inherit;
 }
 
 .editormd-html-preview {
