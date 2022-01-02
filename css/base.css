@@ -298,3 +298,17 @@ a {
   margin: 15px;
   width: 330px;
 }
+
+.footer .copyright {
+  padding: 0.9375rem;
+}
+
+.footer .copyright p {
+  text-align: center;
+}
+
+.mb-0 {
+  margin-bottom: 0!important;
+}
+
+
